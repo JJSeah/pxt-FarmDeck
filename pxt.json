@@ -1,0 +1,24 @@
+{
+    "name": "pxt-FarmDeck",
+    "version": "0.0.4",
+    "description": "FarmDeck extensions",
+    "icon":"./imgs/icon.png",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.13"
+    },
+    "files": [
+        "README.md",
+        "board.ts",
+        "temp.ts",
+        "light.ts",
+        "mp3.ts",
+        "HTTP.ts",
+        "Obloq.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
