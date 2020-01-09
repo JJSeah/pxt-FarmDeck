@@ -1,7 +1,7 @@
 # FarmDeck Documentations 
 'Automation for Peace of Mind'
 FarmDeck Extensions
-To import this extension, go to Advanced -> +Extension copy/paste https://github.com/JJSeah/pxt-FD into the search box. Press enter and click the extension.
+To import this extension, go to Advanced -> +Extension copy/paste https://github.com/JJSeah/pxt-FarmDeck into the search box. Press enter and click the extension.
 
 ## FarmDeck_Temperature 
 ### Blocks
