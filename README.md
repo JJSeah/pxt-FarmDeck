@@ -25,9 +25,9 @@ For the PCB version it's easy: Vcc (+) to 3.3V or 5V (both works), GND (-) to GN
 ### Basic usage
 ```
 basic.forever(function () {
-    BH1750.on()
-    BH1750.SetAddress(BH1750_ADDRESS.A35)
-    basic.showNumber(BH1750.getIntensity())
+    FarmDeck_LightSensor.on()
+    FarmDeck_LightSensor.SetAddress(ADDRESS.A35)
+    basic.showNumber(FarmDeck_LightSensor.getIntensity())
 })
 ```
 ### I2C Address  

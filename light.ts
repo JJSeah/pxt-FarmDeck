@@ -3,7 +3,7 @@
  */
 
 // BH1750's I2C address
-enum BH1750_ADDRESS {
+enum ADDRESS {
     //% block="35"
     A35,
     //% block="92"
@@ -23,8 +23,8 @@ namespace FarmDeck_LightSensor {
      */
     //% blockId="BH1750_SET_ADDRESS" block="set Address %addr"
     //% weight=100 blockGap=8
-    export function SetAddress(addr: BH1750_ADDRESS): void {
-        if (addr == BH1750_ADDRESS.A35)
+    export function SetAddress(addr: ADDRESS): void {
+        if (addr == ADDRESS.A35)
             Address = 35
         else
             Address = 92
